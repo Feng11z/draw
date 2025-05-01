@@ -127,7 +127,7 @@ class LotteryApp:
     def __init__(self, master):
         self.master = master
         self.master.title("抽奖程序 v2.2.3")
-        self.master.geometry("1000x700")
+        self.master.geometry("1000x1000")
         self.animation_phase = 0
         self._init_ui()
         self._init_data()
